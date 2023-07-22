@@ -1,5 +1,10 @@
+import DynamicBackground from "./DynamicBackground";
 function App() {
-  return <div>hello</div>;
+  return (
+    <div>
+      <DynamicBackground />
+    </div>
+  );
 }
 
 export default App;
